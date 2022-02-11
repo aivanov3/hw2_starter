@@ -1,5 +1,5 @@
 # HW2 Questions
-## UMBC CMSC 671 fall 2021
+## UMBC CMSC 471 spring 2022
 
 Please answer the following questions using the git [markdown syntax](https://guides.github.com/features/mastering-markdown/).  You should view this file on your repo on GitHub after pushing it to make sure it looks the way you want.  You can also use a browser extension (like [this one](https://chrome.google.com/webstore/detail/markdown-preview-plus/febilkbfcbhebfnokafefeacimjdckgl) for Chrome) to view your local file.
 
@@ -19,6 +19,6 @@ Please answer the following questions using the git [markdown syntax](https://gu
 
 ... your answer here ...
 
-### (5) Using the steps cost, what is the longest path for a pair of three- and four-letter words you can find?
+### (5) Using the steps cost, what is the longest path for a pair of three- and four-letter words you found?
 
 ... your answer here ...
