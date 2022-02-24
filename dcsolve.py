@@ -29,7 +29,10 @@ def dcsolver(initial="dog", goal="cat", cost='steps'):
         solution_path = "NO SOLUTION"
         deltas = []
         solution_cost = -1
-    print(f"{problem} cost:{solution_cost:.2f}; time:{elapsed:.3f}; solution:{solution_path}; deltas:{deltas}")
+    admissible = "ADMISSIBLE"
+    if (any(x > 0 for x in deltas)):
+        admissible = "NOT ADMISSIBLE"
+    print(f"{problem} cost:{solution_cost:.2f}; time:{elapsed:.3f}; solution:{solution_path}; deltas:{deltas}; {admissible}")
 
 def rnd(n):
     # round to 3 decimal places, replace -0.0 with 0.0
